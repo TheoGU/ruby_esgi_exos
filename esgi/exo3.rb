@@ -11,5 +11,8 @@ puts "La valeur la plus eleve est #{choice.sort.reverse[0]}"
 puts "La valeur la plus eleve est #{choice.max}"
 
 
+puts "Lindice de la valeur la plus eleve est #{choice.index(choice.max)}"
+
+
 
 puts "La moyenne est #{choice.sum / choice.length}"
